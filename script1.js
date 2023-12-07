@@ -121,8 +121,8 @@ let staticImages = {
     },
     {
       "username": "girliepopstar",
-      "imagePost": "the squad 😘",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imagePost": "https://media.vanityfair.com/photos/551acc50fa699a350cfdab98/master/w_1600%2Cc_limit/ss05-tidal-launch-rihanna.jpg",
+      "caption": "the squad 😘",
       "likedByUser": false
     },
     {
