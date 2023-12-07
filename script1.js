@@ -7,35 +7,35 @@ let jsonDatabase = [
     "id": 1,
     "username": "cats4lyfe",
     "imagePost": "https://media4.giphy.com/media/YRtLgsajXrz1FNJ6oy/giphy.gif",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "caption": "All you need is love and a cat.",
     "likedByUser": false
   },
   {
     "id": 2,
     "username": "foodie_fairy",
     "imagePost": "https://i.ytimg.com/vi/KiyDGq8ipJg/maxresdefault.jpg",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "caption": "In the mood for food. 😋",
     "likedByUser": false
   },
   {
     "id": 3,
     "username": "biggest.swiftie.ever1989",
     "imagePost": "https://media1.giphy.com/media/OiU4E2Y8tSU0/giphy.gif?cid=6c09b952wnzebvzo0zvzjq8vc1zryew56wgbvhdrzh3h0rrb&ep=v1_gifs_search&rid=giphy.gif&ct=g",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "caption": "taylor swift is my idol 😍",
     "likedByUser": false
   },
   {
     "id": 4,
     "username": "everyday.memes247",
     "imagePost": "https://i.pinimg.com/originals/a5/d2/bc/a5d2bca6c55f33d5abb0203f608b0244.gif",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "caption": "how it's going atm...",
     "likedByUser": false
   },
   {
     "id": 5,
     "username": "b4sk3tb4ll.f4n",
     "imagePost": "https://image.cnbcfm.com/api/v1/image/107050453-1650652599883-gettyimages-1392882502-0g2a1869_bd5361b6-4b1d-4ed3-8094-d141fd074523.jpeg?v=1650652661&w=1920&h=1080",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "caption": "steph gonna steph! 🔥",
     "likedByUser": false
   }  
 ];
@@ -46,31 +46,31 @@ let staticImages = {
     {
       "username": "iheartcats",
       "imagePost": "https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_4x3.jpg",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Not all angels have wings. Sometimes they have whiskers!",
       "likedByUser": false
     },
     {
       "username": "kittykitty085",
       "imagePost": "https://www.rd.com/wp-content/uploads/2023/04/Hilarious-Cat-Memes-5.jpg?fit=700%2C700",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Never underestimate the power of a purr.",
       "likedByUser": false
     },
     {
       "username": "c4tluv3r",
       "imagePost": "https://www.icegif.com/wp-content/uploads/2023/06/icegif-953.gif",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "The more people I meet, the more I love my cat.",
       "likedByUser": false
     },
     {
       "username": "sanjida.cats",
       "imagePost": "https://i1.sndcdn.com/artworks-zyYqA8D0BdfuyH28-WeeHrw-t500x500.jpg",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "You know you’ve done something right if you’ve been loved by a cat.",
       "likedByUser": false
     },
     {
       "username": "meowhouse11",
       "imagePost": "https://www.gannett-cdn.com/authoring/2015/07/09/NTEG/ghows-WT-19f93d7c-ae87-793b-e053-0100007f4ff3-1f4e7d8c.jpeg?width=660&height=880&fit=crop&format=pjpg&auto=webp",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "The purr-fect cat-urday with my feline friend.",
       "likedByUser": false
     }
   ],
@@ -78,31 +78,31 @@ let staticImages = {
     {
       "username": "ramen_noodz",
       "imagePost": "https://media3.giphy.com/media/l4FGjIfMXEtJ5YMxO/giphy.gif",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Every day is ramen day in my world.",
       "likedByUser": false
     },
     {
       "username": "c4ndyc4ne_s0dap0p",
-      "imagePost": "https://media2.giphy.com/media/hggiEdpVp8yUH9qSTf/200w.gif?cid=6c09b952ktvlyt5ezfu5jh40rw1yo1tlzn55r2xj0husvk2x&ep=v1_gifs_search&rid=200w.gif&ct=g",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imagePost": "https://www.honolulumagazine.com/content/uploads/2021/09/m/h/little-vessels-box-maria-burke.jpg",
+      "caption": "In moments of doubt, trust your gut, hug your dog, and eat a donut.",
       "likedByUser": false
     },
     {
       "username": "coffee.addiction33",
       "imagePost": "https://i.pinimg.com/originals/db/fa/6e/dbfa6e9c3d1c71a27c48030fbbf6f8fc.jpg",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Isn't this coffee just absolutely brew-tiful?",
       "likedByUser": false
     },
     {
       "username": "veggieluver0",
       "imagePost": "https://cdn.loveandlemons.com/wp-content/uploads/2020/12/roasted-vegetables-1.jpg",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Veggies are the highlight of my plate",
       "likedByUser": false
     },
     {
       "username": "junk_food_yum",
       "imagePost": "https://www.fodors.com/wp-content/uploads/2019/03/HERO_Worlds_Best_Soda_Bundaberg_shutterstock_679079920.jpg",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Everyday is a soft drink day. 🥤",
       "likedByUser": false
     }
   ],
@@ -110,31 +110,31 @@ let staticImages = {
     {
       "username": "hunger_games_champion",
       "imagePost": "https://i.pinimg.com/originals/22/78/4c/22784c7a382063f46d47ae9ea8ef5135.gif",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Drop dead gorgeous! #hungergames",
       "likedByUser": false
     },
     {
       "username": "oceaneyes123",
       "imagePost": "https://media.tenor.com/9cb1RNG53f4AAAAd/billie-billie-eilish.gif",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": '"For the debt I owe, gotta sell my soul" - bury a friend',
       "likedByUser": false
     },
     {
       "username": "girliepopstar",
-      "imagePost": "https://media.glamourmagazine.co.uk/photos/6138985aa35312eec27836a0/4:3/w_1704,h_1278,c_limit/Beyonce_minaj_glamour_1apr15_getty_b.jpg",
+      "imagePost": "the squad 😘",
       "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "likedByUser": false
     },
     {
       "username": "primadonna_girl68",
       "imagePost": "https://64.media.tumblr.com/e1359441000a55ad2f50d7347a168132/8492ddcb2ae30438-61/s540x810/aac435a8f33d8a9a450c9eb8cd24295d7c8bfbc4.gif",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Pick a personality for free when you feel like nobody.",
       "likedByUser": false
     },
     {
       "username": "wildest_dreams_fr",
       "imagePost": "https://media.glamourmagazine.co.uk/photos/6138b454573794386521922e/master/w_1600%2Cc_limit/taylor-swift_glamour_7sep15_insta_b.jpg",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": " We're happy, free, confused, and lonely at the same time.",
       "likedByUser": false
     }
   ],
@@ -142,13 +142,13 @@ let staticImages = {
     {
       "username": "squ4re_p4nts",
       "imagePost": "https://media.tenor.com/55It1q2xglUAAAAC/spongebob-silly-face.gif",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "LOL! Spongebob is so crazy!",
       "likedByUser": false
     },
     {
       "username": "memez.hilarious",
       "imagePost": "https://i.imgflip.com/4rr22s.jpg",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Buddy the elf is my spirit animal 🎄",
       "likedByUser": false
     },
     {
@@ -160,13 +160,13 @@ let staticImages = {
     {
       "username": "dad_joke_central",
       "imagePost": "https://i.imgflip.com/810dxm.jpg",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "That's a knee slapper! Ba dum tsss 🥁",
       "likedByUser": false
     },
     {
       "username": "daily_cheesy_jokes",
       "imagePost": "https://i.pinimg.com/736x/a7/a2/8b/a7a28b325f531ef56ee6f1053f254f27.jpg",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Good one dad 😂😂😂",
       "likedByUser": false
     }
   ],
@@ -174,31 +174,31 @@ let staticImages = {
     {
       "username": "w4rriors_offici4l_f4n",
       "imagePost": "https://i.gifer.com/G2WK.gif",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Get dunked on! YASSS ⛹️",
       "likedByUser": false
     },
     {
       "username": "bballer30",
       "imagePost": "https://i.pinimg.com/originals/3e/ed/4e/3eed4e2dd4ae9f4a522e4bddd80c8f9c.gif",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Swooooosh 🔥🔥",
       "likedByUser": false
     },
     {
       "username": "basketball.lyfeforever",
       "imagePost": "https://miro.medium.com/v2/resize:fit:1200/1*YnfIO8Z8Z6zB6GeIfYu4WA.gif",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "CHAMPIONS 4L 😤💪",
       "likedByUser": false
     },
     {
       "username": "buckets.n.beauty",
       "imagePost": "https://64.media.tumblr.com/ccfd6bacec0d1c10c4d9211b1b672aa0/tumblr_mnikikZaPa1rvn2ylo2_400.gifv",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Feeling like a champ with every dunk. 🏆",
       "likedByUser": false
     },
     {
       "username": "n0thingbutn3t",
       "imagePost": "https://noguiltlife.com/wp-content/uploads/2022/10/Best-Basketball-Instagram-Captions-Quotes.png",
-      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "caption": "Basketball all day, every day 💯💯💯",
       "likedByUser": false
     }
   ]
@@ -381,6 +381,9 @@ function getNewStaticImagesForLikedPosts(likedPostsArray) {
 }
 
 
+
+
+let suggestedAds = [];
 
 
 
