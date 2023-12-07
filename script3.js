@@ -4,7 +4,6 @@ function openLightbox(imageUrl) {
     src: imageUrl,
     type: "image",
     opts: {
-      // You can add additional options here if needed
     },
   });
 }

@@ -115,7 +115,6 @@ body {
   background-color: #fff;
   font-family: bodyFont;
   font-size: 2rem;
-/*  overflow: hidden; /* Add this to hide both horizontal and vertical overflow */*/
 }
 
 body * {

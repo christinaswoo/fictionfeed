@@ -340,7 +340,6 @@ function refreshFeedNew() {
 
   feedGridElement.innerHTML = "";
 
-  // Filter liked posts from the second feed
   let likedPostsFromSecondFeed = likedPostsNewFeed.filter(postId => likedPosts.includes(postId));
 
   let staticImagesToShowNewFeed = likedPostsFromSecondFeed.length > 0 ? getNewStaticImagesForLikedPosts(likedPostsFromSecondFeed) : [];
