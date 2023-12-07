@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/6dcf60036c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+	
+	
+<body>
+	<div class="navContainer">
+		<a href="home.html"><h1 id="title">FictionFeed</h1></a>
+
+		<br>
+
+		<button id="refreshButton" onclick="refreshFeed()">Refresh Feed &nbsp;<i class="fa fa-refresh fa-spin"></i></button>
+
+		<br>
+		<br>
+
+		<nav>
+	 		<a href="home.html"><i class="glyphicon glyphicon-home"></i>&nbsp;&nbsp;&nbsp;Home</a>
+	  	<a href="news.html"><i class="fas fa-newspaper"></i>&nbsp;&nbsp;&nbsp;News</a>
+			<a href="profile.html"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;&nbsp;Profile</a>
+		</nav>
+	</div>
+
+	<div class="container">
+	    <div class="feedScroll">
+	      <div id="outputElement">
+	        <p id="outputParagraph"></p>
+	      </div>
+	      <div id="feedGrid"></div>
+	    </div>
+
+	<div class="rightScroll">
+	  <a href="profile.html"><i class="fas fa-user-circle"></i> 
+	    <span id="usernameDisplay"></span>
+	  </a>
+	  SPONSORED
+	  <div id="suggestedImagesContainer"></div>
+	</div>
+
+ 	 </div>
+
+  
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+</body>
+
+</html>

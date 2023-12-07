@@ -1,0 +1,360 @@
+@font-face {
+  font-family: headerFont;
+  src: url(FACEBOLF.otf);
+}
+
+@font-face {
+  font-family: bodyFont;
+  src: url(InstagramMedium.ttf);
+}
+
+@font-face {
+  font-family: navFont;
+  src: url(InstagramLight.ttf);
+}
+
+.navContainer {
+  background-color: #fff;
+}
+
+.navContainer, .navContainerProfile {
+  border: solid 1px #ddd;
+  overflow: hidden;
+  position: fixed;
+  width: 13em;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 2%;
+}
+
+/*.navContainerProfile {
+  background-color: #ffcce5;
+}
+*/
+
+.navContainer button {
+  padding: 5%;
+  background-color: #1778F2;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.navContainer button:active {
+  transform: scale(1.05);
+}
+
+/* Navigation Bar Styles */
+
+h1 {
+  font-family: headerFont;
+  font-size: 4rem;
+  color: #4267B3;
+}
+
+#titleProfile {
+  color: hotpink;
+}
+
+
+nav {
+  font-family: navFont;
+  width: 100%;
+  font-size: 2rem;
+
+}
+
+
+
+nav a, .rightScroll a {
+  display: block;
+  color: #282828;
+  text-align: left;
+  margin-left: 0;
+  padding: 1vw;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.rightScroll a {
+  font-size: 2.3rem;
+}
+
+nav a:hover, .navContainer a:hover, .rightScroll a:hover {
+  font-family: bodyFont;
+  background-color: #eee;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+}
+
+nav a:hover, .navContainer a:hover {
+  transform: scale(1.05);
+}
+
+.rightScroll a:hover {
+  transform: scale(1.01);
+}
+
+.navContainerProfile a:hover {
+  text-decoration: none;
+}
+
+/*.navContainerProfile nav a:hover {
+  background-color: #99ccff;
+}*/
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: bodyFont;
+  font-size: 2rem;
+/*  overflow: hidden; /* Add this to hide both horizontal and vertical overflow */*/
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+
+
+/* LIKE BUTTON */
+.likeButton {
+  text-align: center;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+
+.likeButton.outline::before {
+  content: "\2661"; 
+  margin-right: 5%;
+  margin-bottom: 0;
+}
+
+.likeButton.solid::before {
+  content: "\2764"; 
+  margin-right: 5%;
+  margin-bottom: 0;
+  color: red; 
+}
+
+
+
+
+h4 {
+  margin: 0;
+}
+
+#outputElement {
+  width: 30em;
+  color: #000;
+}
+
+#outputParagraph {
+  color: #fff;
+}
+
+#contentGrid, #profileGrid {
+  display: grid;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vw;
+  font-size: 1.5rem;
+}
+
+#contentGrid {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#profileGrid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  padding: 1vmin;
+  color: #000;
+  border: 2px solid #eee;
+  border-radius: 0.25vmin;
+  height: 100%;
+}
+
+.contentItem * {
+  width: 15em;
+  height: 4.7em;
+}
+
+.postImage {
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+  border-radius: 0.25vmin;
+  margin: 0;
+}
+
+.contentUsername, .contentCaption {
+  text-align: left;
+  margin: 0; 
+  text-decoration: none;
+}
+
+.contentUsername {
+  font-size: 1.5em;
+  margin-top: 5%;
+}
+
+.contentCaption {
+  font-family: navFont;
+  font-size: 1em;
+  width: 100%;
+}
+
+
+
+
+.container {
+  display: flex;
+  gap: 8vw;
+  width: 100vw; 
+  margin-top: 5%;
+}
+
+.feedScroll {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-left: 13em;
+}
+
+.rightScroll, .rightScroll img {
+  width: 17vw;
+  overflow-y: auto;
+/*  background-color: #f1f1f1;*/
+}
+
+.rightScroll a {
+  padding: 7%;
+}
+
+
+
+/*LIGHTBOX*/
+
+.fullWidth {
+  grid-column-start: 0;
+  grid-column-end: span 3;
+  color: #040470;
+/*  width: 100%;*/
+}
+
+.profileHeader {
+/*  width: 100%;*/
+  margin: 8vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.profileHeader i {
+  font-size: 8em;
+  padding-right: 5%;
+  margin: 0;
+  width: 5em;
+}
+
+.bioProfile {
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.sectionProfile {
+/*  border-top: 1vh solid #eee;*/
+  grid-column-start: 0;
+  grid-column-end: span 3;
+/*  background-color: #222;*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0.5vw;
+  grid-row-gap: 0.5vw;
+  margin-left: 20em;
+  margin-right: 10em;
+  margin-bottom: 3em;
+/*  background-color: #ccffe5;*/
+  border: none;
+}
+
+.sectionProfile img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.landingBody{
+/*  background-color: #ffcce5;*/
+  background-image: url(https://cdn4.vectorstock.com/i/1000x1000/00/08/social-media-like-and-heart-icons-background-vector-20100008.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30vh;
+  gap: 2vw;
+}
+
+#titleLanding {
+  transition: all 2s;
+  cursor: pointer;
+  color: #99ccff;
+  text-shadow: 1px 1px 2px black; 
+}
+
+.landingBody button {
+  background-color: #99ccff;
+  border-radius: 5px;
+}
+
+
+.navFont {
+  font-family: navFont;
+  font-size: 1.7rem;
+}
+
+.bodyFont {
+  font-family: bodyFont;
+  font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
